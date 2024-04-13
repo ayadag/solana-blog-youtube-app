@@ -14,6 +14,11 @@ strictPort: true,
 port: 8000,
 },
 
+hmr: {
+  port: 443
+},
+
+
   resolve: {
     alias: [{
       find: "src", replacement: resolve(__dirname, "src")
