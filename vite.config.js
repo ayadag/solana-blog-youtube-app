@@ -17,7 +17,7 @@ server: {
     port: 443
   },
 },
-base: './',
+
 
 
   resolve: {
