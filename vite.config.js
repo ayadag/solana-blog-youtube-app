@@ -12,10 +12,11 @@ server: {
   host: true,
   strictPort: true,
   port: 3000,
-  hmr: {
-    protocol: 'ws',
-    port: 443
-  },
+  
+},
+hmr: {
+  protocol: 'ws',
+  port: 443
 },
 
 
