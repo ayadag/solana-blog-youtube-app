@@ -14,7 +14,7 @@ server: {
   port: 3000,
   hmr: {
     protocol: 'ws',
-    port: 9000
+    port: 443
   },
 },
 base: './',
