@@ -9,14 +9,14 @@ export default defineConfig({
   plugins: [react()],
 
 server: {
-host: true,
-strictPort: true,
-port: 3000,
+  port: 3000,
+  strictPort: true,
+  hmr: {
+    protocol: 'ws',
+    port: 9000
+  },
 },
-
-hmr: {
-  port: 443
-},
+base: './',
 
 
   resolve: {
