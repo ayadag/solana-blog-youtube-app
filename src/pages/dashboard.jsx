@@ -1,9 +1,12 @@
 import { useWallet } from "@solana/wallet-adapter-react"
 import { PhantomWalletName } from "@solana/wallet-adapter-wallets"
 import { useEffect, useState } from "react"
-import { Button } from "src/components/Button"
-import { PostForm } from "src/components/PostForm"
-import { useBlog } from "src/context/Blog"
+// import { Button } from "src/components/Button"
+import { Button } from "../components/Button.jsx"
+// import { PostForm } from "src/components/PostForm"
+import { PostForm } from "../components/PostForm.jsx"
+// import { useBlog } from "src/context/Blog"
+import { useBlog } from "../context/Blog.jsx"
 import { useHistory } from 'react-router-dom'
 
 

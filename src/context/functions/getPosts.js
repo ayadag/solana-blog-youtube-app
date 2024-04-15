@@ -1,7 +1,8 @@
 import { Program } from "@project-serum/anchor";
 import { Observable, Subscriber } from "rxjs";
 
-import { getPostById } from "src/context/functions/getPostById";
+// import { getPostById } from "src/context/functions/getPostById";
+import { getPostById } from "./getPostById.js";
 
 export function getPosts(args) {
   let sub;

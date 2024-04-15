@@ -1,7 +1,10 @@
 import { PublicKey } from "@solana/web3.js";
 import { FC, useState } from "react";
-import { useBlog } from "src/context/Blog";
-import { displayKey } from "src/functions/displayKey";
+// import { useBlog } from "src/context/Blog";
+import { useBlog } from "../context/Blog.jsx";
+
+// import { displayKey } from "src/functions/displayKey";
+import { displayKey } from "../functions/displayKey.js";
 
 export const PostCard = (props) => {
   const { id, title, content, user, date, nextPostId, prePostId } = props;

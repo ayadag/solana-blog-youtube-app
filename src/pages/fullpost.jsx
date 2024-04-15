@@ -6,8 +6,10 @@ import {
 import { PublicKey } from "@solana/web3.js";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getPostById } from "src/context/functions/getPostById";
-import idl from "src/idl.json";
+// import { getPostById } from "src/context/functions/getPostById";
+import { getPostById } from "../context/functions/getPostById.js";
+// import idl from "src/idl.json";
+import idl from "../idl.json";
 
 const PROGRAM_KEY = new PublicKey(idl.metadata.address);
 

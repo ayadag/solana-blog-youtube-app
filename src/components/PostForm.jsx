@@ -1,6 +1,9 @@
 import { FC, ReactNode, useState } from "react";
-import { Button } from "src/components/Button";
-import { useBlog } from "src/context/Blog";
+// import { Button } from "src/components/Button";
+import { Button } from "./Button.jsx";
+
+// import { useBlog } from "src/context/Blog";
+import { useBlog } from "../context/Blog.jsx";
 
 export const PostForm = (props) => {
   const { user } = useBlog();

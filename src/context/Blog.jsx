@@ -8,9 +8,13 @@ import {
   useState,
   useMemo,
 } from "react";
-import { getAvatarUrl } from "src/functions/getAvatarUrl";
-import { getRandomName } from "src/functions/getRandomName";
-import idl from "src/idl.json";
+// import { getAvatarUrl } from "src/functions/getAvatarUrl";
+import { getAvatarUrl } from "../functions/getAvatarUrl.js";
+
+// import { getRandomName } from "src/functions/getRandomName";
+import { getRandomName } from "../functions/getRandomName.js";
+// import idl from "src/idl.json";
+import idl from "../idl.json";
 import { findProgramAddressSync } from '@project-serum/anchor/dist/cjs/utils/pubkey'
 import { utf8 } from '@project-serum/anchor/dist/cjs/utils/bytes'
 
